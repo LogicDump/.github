@@ -1,73 +1,73 @@
 # LogicDump
 
-**Practical AI, engineering software, and systems that are built to work.**
+**IA prática, software de engenharia e sistemas feitos para funcionar.**
 
-LogicDump is an independent software engineering organization focused on practical artificial intelligence, local-first applications, domain-specific tooling, and computational systems.
+A LogicDump é uma organização independente de engenharia de software focada em inteligência artificial aplicada, aplicações local-first, ferramentas especializadas por domínio e sistemas computacionais.
 
-The goal is straightforward: build software that is useful outside the demo, understandable outside the model, and maintainable outside the original development environment.
+O objetivo é simples: construir software que seja útil fora da demonstração, compreensível além do modelo e sustentável fora do ambiente original de desenvolvimento.
 
-## What we build
+## O que construímos
 
-LogicDump projects sit at the intersection of software engineering, artificial intelligence, automation, and applied technical domains.
+Os projetos da LogicDump estão na interseção entre engenharia de software, inteligência artificial, automação e domínios técnicos aplicados.
 
-Typical areas include:
+As principais áreas incluem:
 
-- **Local-first AI** — systems designed to keep data, models, and workflows close to the user whenever practical.
-- **Domain-specific intelligence** — AI applied to real professional workflows rather than generic chat interfaces.
-- **Knowledge systems** — retrieval, structured documents, provenance, search, summarization, and context-aware tools.
-- **Engineering software** — computational tools for simulation, design, analysis, and technical decision support.
-- **Developer tooling** — utilities, viewers, pipelines, integrations, and infrastructure built to remove friction from real work.
+- **IA local-first** — sistemas projetados para manter dados, modelos e fluxos de trabalho próximos do usuário sempre que isso for tecnicamente viável.
+- **Inteligência especializada por domínio** — IA aplicada a fluxos profissionais reais, em vez de interfaces genéricas de conversação.
+- **Sistemas de conhecimento** — recuperação de informação, documentos estruturados, proveniência, busca, sumarização e ferramentas sensíveis ao contexto.
+- **Software de engenharia** — ferramentas computacionais para simulação, projeto, análise e apoio à decisão técnica.
+- **Ferramentas para desenvolvedores** — utilitários, visualizadores, pipelines, integrações e infraestrutura voltados a reduzir atrito no trabalho real.
 
-## Engineering principles
+## Princípios de engenharia
 
-We prefer systems that are:
+Preferimos sistemas que sejam:
 
-**Useful before impressive.**  
-A feature should solve a real problem before it tries to look sophisticated.
+**Úteis antes de impressionantes.**  
+Uma funcionalidade deve resolver um problema real antes de tentar parecer sofisticada.
 
-**Local when possible.**  
-Cloud services are valuable, but they should not automatically become architectural dependencies. Data locality, privacy, portability, and offline capability matter.
+**Locais sempre que possível.**  
+Serviços em nuvem são valiosos, mas não devem se tornar automaticamente dependências arquiteturais. Localidade dos dados, privacidade, portabilidade e capacidade de operação offline importam.
 
-**Transparent by design.**  
-Important transformations should be inspectable. Sources, intermediate results, provenance, and failure modes should remain visible whenever they matter.
+**Transparentes por projeto.**  
+Transformações importantes devem ser inspecionáveis. Fontes, resultados intermediários, proveniência e modos de falha devem permanecer visíveis sempre que forem relevantes.
 
-**Deterministic where determinism is possible.**  
-Not every problem needs an LLM. Conventional software, parsers, rules, classifiers, databases, and numerical methods are often the better tools.
+**Determinísticos quando o determinismo é possível.**  
+Nem todo problema precisa de um LLM. Software convencional, parsers, regras, classificadores, bancos de dados e métodos numéricos muitas vezes são as ferramentas mais adequadas.
 
-**AI where AI earns its place.**  
-Models are used where interpretation, synthesis, reasoning, or ambiguity genuinely justify them.
+**IA onde a IA realmente se justifica.**  
+Modelos são usados quando interpretação, síntese, raciocínio ou ambiguidade realmente justificam seu emprego.
 
-**Efficient on ordinary hardware.**  
-Software should not require datacenter-class hardware to perform useful work. Practical CPU/iGPU execution and modest memory budgets are first-class considerations.
+**Eficientes em hardware comum.**  
+Software útil não deveria exigir hardware de datacenter. Execução prática em CPU/iGPU e orçamentos modestos de memória são requisitos de primeira classe.
 
-**Built around the domain.**  
-The workflow comes first. Technology is selected to serve the problem, not the other way around.
+**Construídos em torno do domínio.**  
+O fluxo de trabalho vem primeiro. A tecnologia é escolhida para servir ao problema, e não o contrário.
 
-## Projects
+## Projetos
 
-### Themis — Legal Engineering
+### Themis — Engenharia Jurídica
 
-A local-first legal engineering environment focused on reliable document processing, structured case information, provenance, search, retrieval, and AI-assisted analysis.
+Um ambiente local-first de engenharia jurídica voltado ao processamento confiável de documentos, informações processuais estruturadas, proveniência, busca, recuperação de informação e análise assistida por IA.
 
-Themis treats legal documents as engineering data: source material remains traceable, extracted information remains attributable, and AI-generated interpretations remain distinguishable from the underlying record.
+O Themis trata documentos jurídicos como dados de engenharia: o material de origem permanece rastreável, a informação extraída permanece atribuível e as interpretações produzidas por IA permanecem distinguíveis do conteúdo original dos autos.
 
-### Daedalus — Computational Design & Engineering
+### Daedalus — Design Computacional e Engenharia
 
-A computational design and engineering project centered on structured building models, parametric systems, IFC workflows, automation, and interoperability with professional visualization and engineering tools.
+Um projeto de design computacional e engenharia centrado em modelos estruturados de edificações, sistemas paramétricos, fluxos IFC, automação e interoperabilidade com ferramentas profissionais de visualização e engenharia.
 
-Daedalus is designed around the idea that architectural and engineering information should remain computable, inspectable, and portable throughout the workflow.
+O Daedalus parte da ideia de que informações arquitetônicas e de engenharia devem permanecer computáveis, inspecionáveis e portáveis ao longo de todo o fluxo de trabalho.
 
-## About the name
+## Sobre o nome
 
-A **logic dump** is exactly what it sounds like: a place where ideas, reasoning, experiments, systems, and working code are made explicit instead of remaining implicit.
+Um **logic dump** é exatamente o que o nome sugere: um lugar onde ideias, raciocínios, experimentos, sistemas e código funcional deixam de permanecer implícitos e passam a ser explicitados.
 
-Some of it becomes infrastructure.  
-Some of it becomes a product.  
-Some of it becomes a better question.
+Parte disso vira infraestrutura.  
+Parte vira produto.  
+Parte vira uma pergunta melhor.
 
-That is the point.
+Esse é o objetivo.
 
 ---
 
 **LogicDump**  
-*Software, AI, and engineering without unnecessary magic.*
+*Software, IA e engenharia sem magia desnecessária.*
