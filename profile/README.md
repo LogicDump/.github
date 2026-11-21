@@ -1,71 +1,37 @@
 # LogicDump
 
-**IA prática, software de engenharia e sistemas feitos para funcionar.**
+**Uma plataforma desktop para rodar aplicativos de IA no seu computador, com os seus dados e os seus modelos.**
 
-A **LogicDump** é uma organização independente de engenharia de software, criada no Brasil, voltada à construção de ferramentas práticas para inteligência artificial, automação, sistemas de conhecimento e engenharia computacional.
+O LogicDump hospeda aplicativos especializados, cada um com interface, regras de negócio e dados próprios, e entrega o que eles têm em comum: modelos de IA locais e remotos, servidores MCP, skills, anexos, voz e controle de permissões. Roda em hardware comum e foi pensado para funcionar offline sempre que der.
 
-A proposta é simples: desenvolver software útil no mundo real — não apenas em demonstrações —, compreensível em sua arquitetura, verificável em seus resultados e sustentável fora do ambiente original de desenvolvimento.
+O host não carrega regra de domínio. Direito, projeto de edificações, simulação e vendas vivem em aplicativos independentes, que usam o mesmo SDK público e podem ser instalados ou removidos sem mexer no núcleo.
 
-## O que construímos
+## Aplicativos
 
-Os projetos da LogicDump ficam na interseção entre **software, inteligência artificial e engenharia aplicada**.
+| Aplicativo | O que faz |
+|---|---|
+| **Themis** | Apoio ao trabalho jurídico: organiza processos, pesquisa jurisprudência e ajuda a redigir, sempre com a fonte rastreável até o documento de origem. |
+| **Daedalus** | Concepção de projetos residenciais sobre o modelo da edificação (IFC) e topografia de precisão. |
+| **FlowLine** | Simulação de processos de negócio por eventos discretos, com cenários e análise de resultados. |
+| **Mensagens** | WhatsApp e Telegram em uma única interface, com histórico guardado localmente. |
+| **AppStudio** | Cria, testa e publica novos aplicativos do LogicDump conversando com a IA. |
+| **Office** | Catálogo e controle, pela IA, dos aplicativos ArtCraft instalados. |
+| **SkillOptimizer** | Otimiza skills e prompts com GEPA, usando os modelos habilitados no LogicDump. |
+| **TrainModel** | Treinamento local de modelos (LoRA/QLoRA) e exportação em GGUF para o LogicDump. |
+| **Vendas_IA** | ERP de varejo com PDV e ações por IA, em desenvolvimento. |
 
-As principais áreas de interesse incluem:
+## Como construímos
 
-- **IA local-first** — dados, modelos e fluxos permanecem próximos do usuário sempre que isso for tecnicamente viável.
-- **Inteligência especializada por domínio** — IA aplicada a problemas e fluxos profissionais reais, em vez de interfaces genéricas de conversação.
-- **Sistemas de conhecimento** — busca, recuperação de informação, documentos estruturados, proveniência, sumarização e contexto.
-- **Software de engenharia** — ferramentas para simulação, projeto, análise, automação e apoio à decisão técnica.
-- **Ferramentas para desenvolvedores** — utilitários, visualizadores, pipelines, integrações e infraestrutura para reduzir atrito no trabalho real.
+- **Local-first.** Dados e modelos ficam com o usuário; a nuvem é opção, não dependência.
+- **Rastreável.** Fonte, resultado intermediário e modo de falha precisam ficar visíveis. O que a IA produz nunca se confunde com o original.
+- **Determinístico quando dá, IA quando ajuda.** Parser, regra e banco resolvem muito problema; o modelo entra onde há interpretação ou ambiguidade de verdade.
+- **Hardware comum.** Funcionar em CPU e iGPU, com uso responsável de memória, é requisito, não bônus.
+- **O domínio manda.** A tecnologia serve ao problema, não o contrário.
 
-## Princípios de engenharia
+## Estado
 
-**Útil antes de impressionante.**  
-Uma funcionalidade deve resolver um problema real antes de tentar parecer sofisticada.
-
-**Local-first quando fizer sentido.**  
-Serviços em nuvem são valiosos, mas não devem se tornar dependências arquiteturais por padrão. Controle dos dados, privacidade, portabilidade e funcionamento offline importam.
-
-**Transparente por construção.**  
-Transformações importantes devem ser inspecionáveis. Fontes, resultados intermediários, proveniência e modos de falha precisam permanecer visíveis quando forem relevantes.
-
-**Determinístico onde for possível.**  
-Nem todo problema precisa de um LLM. Parsers, regras, classificadores, bancos de dados, algoritmos tradicionais e métodos numéricos frequentemente são a solução mais adequada.
-
-**IA quando ela realmente agrega valor.**  
-Modelos são usados quando interpretação, síntese, raciocínio ou ambiguidade justificam sua presença no sistema.
-
-**Eficiente em hardware comum.**  
-Software útil não deveria exigir hardware de datacenter. Execução prática em CPU/iGPU e uso responsável de memória são requisitos de primeira classe.
-
-**O domínio vem primeiro.**  
-A tecnologia é escolhida para servir ao problema, e não o contrário.
-
-## Projetos
-
-### Themis — Engenharia Jurídica
-
-O **Themis** é um ambiente local-first de engenharia jurídica voltado ao processamento confiável de documentos, organização de informações processuais, proveniência, busca, recuperação de informação e análise assistida por IA.
-
-Seu princípio central é tratar documentos jurídicos como dados de engenharia: a fonte permanece rastreável, a informação extraída permanece atribuível e as interpretações produzidas por IA permanecem claramente separadas do conteúdo original dos autos.
-
-### Daedalus — Design Computacional e Engenharia
-
-O **Daedalus** é um projeto de design computacional e engenharia centrado em modelos estruturados de edificações, sistemas paramétricos, fluxos IFC, automação e interoperabilidade com ferramentas profissionais de visualização e engenharia.
-
-A premissa é que informações arquitetônicas e de engenharia devem permanecer **computáveis, inspecionáveis e portáveis** ao longo de todo o fluxo de trabalho.
+Em desenvolvimento ativo, para Windows. Os repositórios estão privados por enquanto.
 
 ## Sobre o nome
 
-Um **logic dump** é exatamente o que o nome sugere: um lugar onde ideias, raciocínios, experimentos, sistemas e código funcional deixam de ficar implícitos e passam a ser explicitados.
-
-Parte disso vira infraestrutura.  
-Parte vira produto.  
-Parte vira uma pergunta melhor.
-
-Esse é o objetivo.
-
----
-
-**LogicDump**  
-*Software, IA e engenharia sem magia desnecessária.*
+Um *logic dump* é onde o raciocínio, os experimentos e o código deixam de ficar implícitos. Parte vira infraestrutura, parte vira produto, parte vira uma pergunta melhor.
